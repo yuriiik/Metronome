@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Metronome'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Metronome.'
+  s.summary          = 'A simple metronome.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Metronome view controller that can be embedded into your app and used right away. Metronome implementation itself is based on Apple’s example (https://developer.apple.com/library/content/samplecode/HelloMetronome/Introduction/Intro.html).
                        DESC
 
-  s.homepage         = 'https://github.com/kupratsevich@gmail.com/Metronome'
+  s.homepage         = 'https://github.com/yuriiik/Metronome'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kupratsevich@gmail.com' => 'yurii.kupratsevych@elementum.com' }
-  s.source           = { :git => 'https://github.com/kupratsevich@gmail.com/Metronome.git', :tag => s.version.to_s }
+  s.author           = { 'Yurii Kupratsevych' => 'kupratsevich@gmail.com' }
+  s.source           = { :git => 'https://github.com/yuriiik/Metronome.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
