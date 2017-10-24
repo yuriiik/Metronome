@@ -8,6 +8,7 @@
 #import "MTRMetronomeViewController.h"
 #import "MTRMetronome.h"
 #import "MTRMetronomeButton.h"
+#import "NSObject+MTRBundleManagement.h"
 
 @import AVFoundation;
 
@@ -49,10 +50,7 @@ static NSUInteger const kMaxAllowedBPM = 500;
 - (instancetype)initWithMinBPM:(NSUInteger)minBPM
                         maxBPM:(NSUInteger)maxBPM
                     currentBPM:(NSUInteger)currentBPM {
-    NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
-    NSURL *metronomeBundleURL = [bundle URLForResource:@"Metronome" withExtension:@"bundle"];
-    NSBundle *metronomeBundle = [NSBundle bundleWithURL:metronomeBundleURL];
-    self = [super initWithNibName:NSStringFromClass(self.class) bundle:metronomeBundle];
+    self = [super initWithNibName:NSStringFromClass(self.class) bundle:[self bundleForName:@"Metronome"]];
     if (self) {
         _minBPM = (minBPM >= kMinAllowedBPM) ? minBPM : kMinAllowedBPM;
         _maxBPM = (maxBPM <= kMaxAllowedBPM) && (maxBPM > minBPM) ? maxBPM : kMaxAllowedBPM;
