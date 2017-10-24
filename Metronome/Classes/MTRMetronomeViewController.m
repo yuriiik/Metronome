@@ -49,7 +49,10 @@ static NSUInteger const kMaxAllowedBPM = 500;
 - (instancetype)initWithMinBPM:(NSUInteger)minBPM
                         maxBPM:(NSUInteger)maxBPM
                     currentBPM:(NSUInteger)currentBPM {
-    self = [super init];
+    NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
+    NSURL *metronomeBundleURL = [bundle URLForResource:@"Metronome" withExtension:@"bundle"];
+    NSBundle *metronomeBundle = [NSBundle bundleWithURL:metronomeBundleURL];
+    self = [super initWithNibName:NSStringFromClass(self.class) bundle:metronomeBundle];
     if (self) {
         _minBPM = (minBPM >= kMinAllowedBPM) ? minBPM : kMinAllowedBPM;
         _maxBPM = (maxBPM <= kMaxAllowedBPM) && (maxBPM > minBPM) ? maxBPM : kMaxAllowedBPM;
