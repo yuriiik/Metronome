@@ -40,7 +40,7 @@
 		08126F0644C1B7C31C8B6F50 /* Pods-Metronome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metronome_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metronome_Example/Pods-Metronome_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0AE2C180737B9CF06B2ED088 /* Pods_Metronome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metronome_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C380F07F8D2E1F1198378B9 /* Pods-Metronome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metronome_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metronome_Example/Pods-Metronome_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5F34BAFF056D5DDF6FDDBE51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5F34BAFF056D5DDF6FDDBE51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Metronome_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metronome_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		78701AC94E7104935B83E868 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		78701AC94E7104935B83E868 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964359DCF6051D4EB4D6FDF2 /* Pods-Metronome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metronome_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metronome_Tests/Pods-Metronome_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AE2D15C4E8289D8E4227A4C4 /* Metronome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Metronome.podspec; path = ../Metronome.podspec; sourceTree = "<group>"; };
+		AE2D15C4E8289D8E4227A4C4 /* Metronome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Metronome.podspec; path = ../Metronome.podspec; sourceTree = "<group>"; };
 		F204F7C506CA9A9BD3DDDAC1 /* Pods_Metronome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metronome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F8C6DEC371891D0A79EF47 /* Pods-Metronome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metronome_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metronome_Tests/Pods-Metronome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

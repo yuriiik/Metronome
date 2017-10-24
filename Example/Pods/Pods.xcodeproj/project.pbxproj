@@ -16,6 +16,8 @@
 		A1B0BB7AABC0705E4354D1F7FAEC1405 /* Pods-Metronome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED358C82C7569C573B23EC9AEEB7E42 /* Pods-Metronome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE00B2861F9F6EE7003CCDBB /* MTRMetronome.h in Headers */ = {isa = PBXBuildFile; fileRef = DE00B2841F9F6EE7003CCDBB /* MTRMetronome.h */; };
 		DE00B2871F9F6EE7003CCDBB /* MTRMetronome.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00B2851F9F6EE7003CCDBB /* MTRMetronome.m */; };
+		DE00B28A1F9F702D003CCDBB /* MTRMetronomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DE00B2881F9F702D003CCDBB /* MTRMetronomeButton.h */; };
+		DE00B28B1F9F702D003CCDBB /* MTRMetronomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00B2891F9F702D003CCDBB /* MTRMetronomeButton.m */; };
 		EB58C236B2B4996C3B8E94FE5C28B7F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FEEFBD1C3455CC30D6802E6E5B377484 /* Metronome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E13C4455C4CB727469D8A504D75E75 /* Metronome-dummy.m */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		C5255DFD178881CD7EEC4B56F9FD6D35 /* Pods-Metronome_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Metronome_Tests.modulemap"; sourceTree = "<group>"; };
 		DE00B2841F9F6EE7003CCDBB /* MTRMetronome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTRMetronome.h; path = Metronome/Classes/MTRMetronome.h; sourceTree = "<group>"; };
 		DE00B2851F9F6EE7003CCDBB /* MTRMetronome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MTRMetronome.m; path = Metronome/Classes/MTRMetronome.m; sourceTree = "<group>"; };
+		DE00B2881F9F702D003CCDBB /* MTRMetronomeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTRMetronomeButton.h; path = Metronome/Classes/MTRMetronomeButton.h; sourceTree = "<group>"; };
+		DE00B2891F9F702D003CCDBB /* MTRMetronomeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MTRMetronomeButton.m; path = Metronome/Classes/MTRMetronomeButton.m; sourceTree = "<group>"; };
 		DF19FD71C30FAFC07381A46A65821FBF /* Pods-Metronome_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Metronome_Example-resources.sh"; sourceTree = "<group>"; };
 		E841572B478CD3491ECDFE88A644F2AB /* Pods-Metronome_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Metronome_Tests-resources.sh"; sourceTree = "<group>"; };
 		EAF59325929C862738B72328F7C1B4B4 /* Pods-Metronome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Metronome_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 			children = (
 				DE00B2841F9F6EE7003CCDBB /* MTRMetronome.h */,
 				DE00B2851F9F6EE7003CCDBB /* MTRMetronome.m */,
+				DE00B2881F9F702D003CCDBB /* MTRMetronomeButton.h */,
+				DE00B2891F9F702D003CCDBB /* MTRMetronomeButton.m */,
 				AF742547561EA179F74A9278BE7FE8EB /* Support Files */,
 			);
 			name = Metronome;
@@ -218,6 +224,7 @@
 			files = (
 				9F0F2082B73CC99905FC6402E386D380 /* Metronome-umbrella.h in Headers */,
 				DE00B2861F9F6EE7003CCDBB /* MTRMetronome.h in Headers */,
+				DE00B28A1F9F702D003CCDBB /* MTRMetronomeButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE00B28B1F9F702D003CCDBB /* MTRMetronomeButton.m in Sources */,
 				DE00B2871F9F6EE7003CCDBB /* MTRMetronome.m in Sources */,
 				FEEFBD1C3455CC30D6802E6E5B377484 /* Metronome-dummy.m in Sources */,
 			);
