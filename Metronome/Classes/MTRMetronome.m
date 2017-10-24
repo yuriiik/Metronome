@@ -126,7 +126,10 @@ typedef NS_ENUM(NSUInteger, MTRMetronomeState) {
                    toBus:0
                   format:nil];
         _syncQueue = dispatch_queue_create(NULL, nil);
-        NSURL *fileURL = [NSBundle.mainBundle URLForResource:@"metronome_click" withExtension:@"mp3"];
+        NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
+        NSURL *metronomeBundleURL = [bundle URLForResource:@"Metronome" withExtension:@"bundle"];
+        NSBundle *metronomeBundle = [NSBundle bundleWithURL:metronomeBundleURL];
+        NSURL *fileURL = [metronomeBundle URLForResource:@"metronome_click" withExtension:@"mp3"];
         _file = [[AVAudioFile alloc] initForReading:fileURL error:nil];
         _state = MTRMetronomeStopped;
     }

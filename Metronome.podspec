@@ -32,9 +32,9 @@ Metronome view controller that can be embedded into your app and used right away
 
   s.source_files = 'Metronome/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Metronome' => ['Metronome/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'Metronome' => ['Metronome/Assets/*.mp3', 'Metronome/Classes/*.xib']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
