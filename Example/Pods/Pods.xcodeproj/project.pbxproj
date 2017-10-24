@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1297635153BE2D41E91B30F8F7953521 /* MTRMetronomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E8B541D9BC48E6FED431AD9536C04F /* MTRMetronomeViewController.xib */; };
 		16BB84E67EC949D4C9907A01BD91EC85 /* Pods-Metronome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A9465261B0B153EB28A0D6457C91B /* Pods-Metronome_Tests-dummy.m */; };
 		19ACC1649C8A05A5DCF4B83CC0E53211 /* Pods-Metronome_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C60410CC132DEFF060FEAE3E3388D39 /* Pods-Metronome_Example-dummy.m */; };
+		2BCA8D4D76C96EED5B60CD4BBACE69C6 /* Metronome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 854B7D341EBF99E30B760B3E4732C863 /* Metronome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		417322310FD9FFB5E7C009681782B154 /* MTRMetronomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABD54CD3324A5ABC2DCFC4BB8C193F4 /* MTRMetronomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		480383A060AD3549BF75BA538FDB33CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5287DBA079056FC11DEB0DC801B5F3DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		559A3B45E90AC833946D8399B87437FD /* MTRMetronomeViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 22E8B541D9BC48E6FED431AD9536C04F /* MTRMetronomeViewController.xib */; };
 		66436852D2095201DE49389452F234C1 /* Pods-Metronome_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62609786E93E899FFA1F89579AE1FD99 /* Pods-Metronome_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F0F2082B73CC99905FC6402E386D380 /* Metronome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 118CC09655FC22DF3A7286670672D6E9 /* Metronome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8317B7EF083782A7930C7DEF12E3DC /* Metronome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F23FE9E68C7F01FC1CC9E1D27278D2E /* Metronome-dummy.m */; };
+		99BA7564C9998D478C13614DB6271932 /* MTRMetronome.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C79BDE8669A6775ADE9811B0E3031A /* MTRMetronome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0ADAE171D4C70E037D6EFF47D6858F2 /* Metronome.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A68470386FF124D555E261F3A1D88BF4 /* Metronome.bundle */; };
 		A1B0BB7AABC0705E4354D1F7FAEC1405 /* Pods-Metronome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED358C82C7569C573B23EC9AEEB7E42 /* Pods-Metronome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE00B2861F9F6EE7003CCDBB /* MTRMetronome.h in Headers */ = {isa = PBXBuildFile; fileRef = DE00B2841F9F6EE7003CCDBB /* MTRMetronome.h */; };
-		DE00B2871F9F6EE7003CCDBB /* MTRMetronome.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00B2851F9F6EE7003CCDBB /* MTRMetronome.m */; };
-		DE00B28A1F9F702D003CCDBB /* MTRMetronomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DE00B2881F9F702D003CCDBB /* MTRMetronomeButton.h */; };
-		DE00B28B1F9F702D003CCDBB /* MTRMetronomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00B2891F9F702D003CCDBB /* MTRMetronomeButton.m */; };
-		DE00B28F1F9F71F4003CCDBB /* MTRMetronomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE00B28C1F9F71F4003CCDBB /* MTRMetronomeViewController.h */; };
-		DE00B2901F9F71F4003CCDBB /* MTRMetronomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00B28D1F9F71F4003CCDBB /* MTRMetronomeViewController.m */; };
-		EB58C236B2B4996C3B8E94FE5C28B7F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FEEFBD1C3455CC30D6802E6E5B377484 /* Metronome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E13C4455C4CB727469D8A504D75E75 /* Metronome-dummy.m */; };
+		A4037235D40E296B1D9066D1131F8B89 /* MTRMetronomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F6CFF461412D2F43357DB1D7D8D90 /* MTRMetronomeButton.m */; };
+		B650D19864499A7DEE699162FF27C45A /* metronome_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3D5712D701887ADDBD5B23B1A020574 /* metronome_click.mp3 */; };
+		CC87D10E1212A5A06D7FC2EA2576603C /* MTRMetronomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC043798FCA63E8A1A6FC83C6521F0D /* MTRMetronomeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE9828344A6ECED0574AF67CA80CDF9D /* MTRMetronome.m in Sources */ = {isa = PBXBuildFile; fileRef = 444EBA40E3CA9B90584A1DDA30E94A83 /* MTRMetronome.m */; };
+		D4FFDBC205364163C43351623D23D89E /* MTRMetronomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200A7F45EA9498B39F9377D4AEC8CF6F /* MTRMetronomeViewController.m */; };
+		DDEE0E77A53C7D45E5777625EF74132B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,50 +33,60 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EE378051F7344D9FA8A85A102A5E633;
+			remoteGlobalIDString = 3481882083CED453616FB6B80E9E5353;
 			remoteInfo = Metronome;
+		};
+		1E9F44C0D1CB9FA6D6B44405E6635443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCFF807DCC3B09EFB385DE0824A5375;
+			remoteInfo = "Metronome-Metronome";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2F6CFF461412D2F43357DB1D7D8D90 /* MTRMetronomeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTRMetronomeButton.m; path = Metronome/Classes/MTRMetronomeButton.m; sourceTree = "<group>"; };
 		0AB09665B4F83D68CC80AA91FA17CC2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EC3F7E58959A5DA25282EB05AACFD32 /* Pods-Metronome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Metronome_Example.release.xcconfig"; sourceTree = "<group>"; };
-		118CC09655FC22DF3A7286670672D6E9 /* Metronome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Metronome-umbrella.h"; sourceTree = "<group>"; };
+		0F7A82BD3CF6584D10E6E2B377611B89 /* Pods_Metronome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Metronome_Example.framework; path = "Pods-Metronome_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2101C29E944CA56FA7D8EBE3D2A7EB /* Pods-Metronome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Metronome_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1C60410CC132DEFF060FEAE3E3388D39 /* Pods-Metronome_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Metronome_Example-dummy.m"; sourceTree = "<group>"; };
 		1EAF6D2ED5391372827D1D2192924983 /* Pods-Metronome_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Metronome_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		23FA095016F5B4FB695C01CE673ACC42 /* Pods-Metronome_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Metronome_Example.modulemap"; sourceTree = "<group>"; };
+		200A7F45EA9498B39F9377D4AEC8CF6F /* MTRMetronomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTRMetronomeViewController.m; path = Metronome/Classes/MTRMetronomeViewController.m; sourceTree = "<group>"; };
+		22E8B541D9BC48E6FED431AD9536C04F /* MTRMetronomeViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTRMetronomeViewController.xib; path = Metronome/Classes/MTRMetronomeViewController.xib; sourceTree = "<group>"; };
+		23FA095016F5B4FB695C01CE673ACC42 /* Pods-Metronome_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Metronome_Example.modulemap"; sourceTree = "<group>"; };
 		2EDA4033924894B3A7408E794C06280F /* Pods-Metronome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Metronome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		36438D1E9FD1D351DF0A6357A8084C91 /* Pods_Metronome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metronome_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C53FA7279CC9AC01460D201CE6F8B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E0D8961BB7A2295F43B8A4A3CE4F3C /* Pods-Metronome_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Metronome_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3F9A9465261B0B153EB28A0D6457C91B /* Pods-Metronome_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Metronome_Tests-dummy.m"; sourceTree = "<group>"; };
 		44062454D30B0B3700CB53BA081DAEE7 /* Pods-Metronome_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Metronome_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		46D836F9AD67C6B56BC4378BF38B7ECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444EBA40E3CA9B90584A1DDA30E94A83 /* MTRMetronome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTRMetronome.m; path = Metronome/Classes/MTRMetronome.m; sourceTree = "<group>"; };
 		4945F6497C2C841D2896F3011B593EA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C79BDE8669A6775ADE9811B0E3031A /* MTRMetronome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTRMetronome.h; path = Metronome/Classes/MTRMetronome.h; sourceTree = "<group>"; };
 		4ACC4A766CEE70AFED0EADBF6803B6F0 /* Pods-Metronome_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Metronome_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4C74B2D5532B8D1C6D5BB9747278E353 /* Metronome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Metronome.xcconfig; sourceTree = "<group>"; };
 		62609786E93E899FFA1F89579AE1FD99 /* Pods-Metronome_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Metronome_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D0D60948823FE00E7CD2B016A7FD5C5 /* Pods-Metronome_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Metronome_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		746ACB42E32DE9A692B62E2B65006A35 /* Metronome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Metronome.modulemap; sourceTree = "<group>"; };
+		7ABD54CD3324A5ABC2DCFC4BB8C193F4 /* MTRMetronomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTRMetronomeViewController.h; path = Metronome/Classes/MTRMetronomeViewController.h; sourceTree = "<group>"; };
 		7BBBC83BCD2DA6022E408381A4FB6837 /* Pods-Metronome_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Metronome_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7ED358C82C7569C573B23EC9AEEB7E42 /* Pods-Metronome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Metronome_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8197BC0B34282B3D9CFF6CB1991C186B /* Metronome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Metronome-prefix.pch"; sourceTree = "<group>"; };
-		8EFC74B672B255B5F23EA438B19EBBB4 /* Pods_Metronome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metronome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4E13C4455C4CB727469D8A504D75E75 /* Metronome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Metronome-dummy.m"; sourceTree = "<group>"; };
-		C5255DFD178881CD7EEC4B56F9FD6D35 /* Pods-Metronome_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Metronome_Tests.modulemap"; sourceTree = "<group>"; };
-		DE00B2841F9F6EE7003CCDBB /* MTRMetronome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTRMetronome.h; path = Metronome/Classes/MTRMetronome.h; sourceTree = "<group>"; };
-		DE00B2851F9F6EE7003CCDBB /* MTRMetronome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MTRMetronome.m; path = Metronome/Classes/MTRMetronome.m; sourceTree = "<group>"; };
-		DE00B2881F9F702D003CCDBB /* MTRMetronomeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTRMetronomeButton.h; path = Metronome/Classes/MTRMetronomeButton.h; sourceTree = "<group>"; };
-		DE00B2891F9F702D003CCDBB /* MTRMetronomeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MTRMetronomeButton.m; path = Metronome/Classes/MTRMetronomeButton.m; sourceTree = "<group>"; };
-		DE00B28C1F9F71F4003CCDBB /* MTRMetronomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTRMetronomeViewController.h; path = Metronome/Classes/MTRMetronomeViewController.h; sourceTree = "<group>"; };
-		DE00B28D1F9F71F4003CCDBB /* MTRMetronomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MTRMetronomeViewController.m; path = Metronome/Classes/MTRMetronomeViewController.m; sourceTree = "<group>"; };
-		DE00B28E1F9F71F4003CCDBB /* MTRMetronomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MTRMetronomeViewController.xib; path = Metronome/Classes/MTRMetronomeViewController.xib; sourceTree = "<group>"; };
+		854B7D341EBF99E30B760B3E4732C863 /* Metronome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Metronome-umbrella.h"; sourceTree = "<group>"; };
+		8E10535B89518CF5FDD845E86A807A57 /* Pods_Metronome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Metronome_Tests.framework; path = "Pods-Metronome_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC043798FCA63E8A1A6FC83C6521F0D /* MTRMetronomeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTRMetronomeButton.h; path = Metronome/Classes/MTRMetronomeButton.h; sourceTree = "<group>"; };
+		9246781F7AEE3F04C3F4FEFC329B8D50 /* ResourceBundle-Metronome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Metronome-Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F23FE9E68C7F01FC1CC9E1D27278D2E /* Metronome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Metronome-dummy.m"; sourceTree = "<group>"; };
+		A68470386FF124D555E261F3A1D88BF4 /* Metronome.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Metronome.bundle; path = Metronome.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5255DFD178881CD7EEC4B56F9FD6D35 /* Pods-Metronome_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Metronome_Tests.modulemap"; sourceTree = "<group>"; };
+		D1E3EFBA1B39FB3F04B1CBFF37D0ACC6 /* Metronome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Metronome.xcconfig; sourceTree = "<group>"; };
+		D3D5712D701887ADDBD5B23B1A020574 /* metronome_click.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = metronome_click.mp3; sourceTree = "<group>"; };
 		DF19FD71C30FAFC07381A46A65821FBF /* Pods-Metronome_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Metronome_Example-resources.sh"; sourceTree = "<group>"; };
+		E17E6FABEC168DCF6B419EF7E69F258C /* Metronome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Metronome.framework; path = Metronome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E841572B478CD3491ECDFE88A644F2AB /* Pods-Metronome_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Metronome_Tests-resources.sh"; sourceTree = "<group>"; };
 		EAF59325929C862738B72328F7C1B4B4 /* Pods-Metronome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Metronome_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F83B9867FD990CE83B6BBBCE43824B21 /* Metronome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Metronome.modulemap; sourceTree = "<group>"; };
-		FC2E0C218F4F46168B2F319B4B5E2137 /* Metronome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Metronome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5E9DA9B39DE41BDDE7664D0676ECDF /* Metronome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Metronome-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +98,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		657A8F8A65BC87A26A8E258AC15A121C /* Frameworks */ = {
+		7A142FE54BCBFC62A367A870F8512491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB58C236B2B4996C3B8E94FE5C28B7F7 /* Foundation.framework in Frameworks */,
+				DDEE0E77A53C7D45E5777625EF74132B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,25 +114,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B006E466B9D901B985471D2C0834A579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28692B26E7DD826E772DE370E201B630 /* Products */ = {
+		1B085B4379D77F1E7E6F006CC9710CED /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FC2E0C218F4F46168B2F319B4B5E2137 /* Metronome.framework */,
-				8EFC74B672B255B5F23EA438B19EBBB4 /* Pods_Metronome_Example.framework */,
-				36438D1E9FD1D351DF0A6357A8084C91 /* Pods_Metronome_Tests.framework */,
+				D3D5712D701887ADDBD5B23B1A020574 /* metronome_click.mp3 */,
 			);
-			name = Products;
+			name = Assets;
+			path = Metronome/Assets;
 			sourceTree = "<group>";
 		};
-		4BAFD0A412FCD468D83CF8CC621EDF6F /* Development Pods */ = {
+		2A43A0FAC6472DB51C47B2CC0F109538 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1C8CB892AE41D4AD68422E28F9108C0 /* Metronome */,
+				A66503E90CB6F506C7F7123F91C7FC2C /* Metronome */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39EBA6A03F0B4B1A136FACEE0D776CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68470386FF124D555E261F3A1D88BF4 /* Metronome.bundle */,
+				E17E6FABEC168DCF6B419EF7E69F258C /* Metronome.framework */,
+				0F7A82BD3CF6584D10E6E2B377611B89 /* Pods_Metronome_Example.framework */,
+				8E10535B89518CF5FDD845E86A807A57 /* Pods_Metronome_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5CF8CA01C3F531A266FC2B4A3ACF8089 /* Pods-Metronome_Tests */ = {
@@ -143,11 +174,26 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4BAFD0A412FCD468D83CF8CC621EDF6F /* Development Pods */,
+				2A43A0FAC6472DB51C47B2CC0F109538 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				28692B26E7DD826E772DE370E201B630 /* Products */,
+				39EBA6A03F0B4B1A136FACEE0D776CC2 /* Products */,
 				C2F995867595AE55FC4D49D773394AC0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		88AC4F01760DE68CB94FE1369F33546E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C53FA7279CC9AC01460D201CE6F8B7 /* Info.plist */,
+				746ACB42E32DE9A692B62E2B65006A35 /* Metronome.modulemap */,
+				D1E3EFBA1B39FB3F04B1CBFF37D0ACC6 /* Metronome.xcconfig */,
+				9F23FE9E68C7F01FC1CC9E1D27278D2E /* Metronome-dummy.m */,
+				FB5E9DA9B39DE41BDDE7664D0676ECDF /* Metronome-prefix.pch */,
+				854B7D341EBF99E30B760B3E4732C863 /* Metronome-umbrella.h */,
+				9246781F7AEE3F04C3F4FEFC329B8D50 /* ResourceBundle-Metronome-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Metronome";
 			sourceTree = "<group>";
 		};
 		8F954868456F250360B9D3E8A5E05076 /* Pods-Metronome_Example */ = {
@@ -168,34 +214,29 @@
 			path = "Target Support Files/Pods-Metronome_Example";
 			sourceTree = "<group>";
 		};
-		A1C8CB892AE41D4AD68422E28F9108C0 /* Metronome */ = {
+		A66503E90CB6F506C7F7123F91C7FC2C /* Metronome */ = {
 			isa = PBXGroup;
 			children = (
-				DE00B2841F9F6EE7003CCDBB /* MTRMetronome.h */,
-				DE00B2851F9F6EE7003CCDBB /* MTRMetronome.m */,
-				DE00B2881F9F702D003CCDBB /* MTRMetronomeButton.h */,
-				DE00B2891F9F702D003CCDBB /* MTRMetronomeButton.m */,
-				DE00B28C1F9F71F4003CCDBB /* MTRMetronomeViewController.h */,
-				DE00B28D1F9F71F4003CCDBB /* MTRMetronomeViewController.m */,
-				DE00B28E1F9F71F4003CCDBB /* MTRMetronomeViewController.xib */,
-				AF742547561EA179F74A9278BE7FE8EB /* Support Files */,
+				49C79BDE8669A6775ADE9811B0E3031A /* MTRMetronome.h */,
+				444EBA40E3CA9B90584A1DDA30E94A83 /* MTRMetronome.m */,
+				8FC043798FCA63E8A1A6FC83C6521F0D /* MTRMetronomeButton.h */,
+				0A2F6CFF461412D2F43357DB1D7D8D90 /* MTRMetronomeButton.m */,
+				7ABD54CD3324A5ABC2DCFC4BB8C193F4 /* MTRMetronomeViewController.h */,
+				200A7F45EA9498B39F9377D4AEC8CF6F /* MTRMetronomeViewController.m */,
+				22E8B541D9BC48E6FED431AD9536C04F /* MTRMetronomeViewController.xib */,
+				D436996AFAC4D7E29078E8269AB6AA6D /* Resources */,
+				88AC4F01760DE68CB94FE1369F33546E /* Support Files */,
 			);
 			name = Metronome;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AF742547561EA179F74A9278BE7FE8EB /* Support Files */ = {
+		B80697F82C139C47EEBF86C666BFC0EF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				46D836F9AD67C6B56BC4378BF38B7ECD /* Info.plist */,
-				F83B9867FD990CE83B6BBBCE43824B21 /* Metronome.modulemap */,
-				4C74B2D5532B8D1C6D5BB9747278E353 /* Metronome.xcconfig */,
-				A4E13C4455C4CB727469D8A504D75E75 /* Metronome-dummy.m */,
-				8197BC0B34282B3D9CFF6CB1991C186B /* Metronome-prefix.pch */,
-				118CC09655FC22DF3A7286670672D6E9 /* Metronome-umbrella.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Metronome";
+			name = Classes;
+			path = Metronome/Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -223,25 +264,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D436996AFAC4D7E29078E8269AB6AA6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B085B4379D77F1E7E6F006CC9710CED /* Assets */,
+				B80697F82C139C47EEBF86C666BFC0EF /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5A1003A7A9BF0DF9D636606C00BDE3AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F0F2082B73CC99905FC6402E386D380 /* Metronome-umbrella.h in Headers */,
-				DE00B2861F9F6EE7003CCDBB /* MTRMetronome.h in Headers */,
-				DE00B28F1F9F71F4003CCDBB /* MTRMetronomeViewController.h in Headers */,
-				DE00B28A1F9F702D003CCDBB /* MTRMetronomeButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		732667355AA8EE8B58C91AE67FDC2A29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				66436852D2095201DE49389452F234C1 /* Pods-Metronome_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F883C63DE091DC8BC68C47F30A108F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCA8D4D76C96EED5B60CD4BBACE69C6 /* Metronome-umbrella.h in Headers */,
+				99BA7564C9998D478C13614DB6271932 /* MTRMetronome.h in Headers */,
+				CC87D10E1212A5A06D7FC2EA2576603C /* MTRMetronomeButton.h in Headers */,
+				417322310FD9FFB5E7C009681782B154 /* MTRMetronomeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +306,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3481882083CED453616FB6B80E9E5353 /* Metronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0132DD1B3A6A5A73BC36A103BE400B /* Build configuration list for PBXNativeTarget "Metronome" */;
+			buildPhases = (
+				EE460CF3EB7454995B4587874AAEA1EA /* Sources */,
+				7A142FE54BCBFC62A367A870F8512491 /* Frameworks */,
+				F2D1A846A9D69AFB441DDBE78A4AF546 /* Resources */,
+				B7F883C63DE091DC8BC68C47F30A108F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BCD2174F51143EAF999B923C890482 /* PBXTargetDependency */,
+			);
+			name = Metronome;
+			productName = Metronome;
+			productReference = E17E6FABEC168DCF6B419EF7E69F258C /* Metronome.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		543A623B52BCB84D2B0B0A9087C00CAD /* Pods-Metronome_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BE1BC329C4F3783B04FA84F94D37AE6 /* Build configuration list for PBXNativeTarget "Pods-Metronome_Example" */;
@@ -271,24 +340,7 @@
 			);
 			name = "Pods-Metronome_Example";
 			productName = "Pods-Metronome_Example";
-			productReference = 8EFC74B672B255B5F23EA438B19EBBB4 /* Pods_Metronome_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8EE378051F7344D9FA8A85A102A5E633 /* Metronome */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4487989616D01A0A650CF423A1D7506E /* Build configuration list for PBXNativeTarget "Metronome" */;
-			buildPhases = (
-				998E609EC1E46DCA201D2F9B1A627407 /* Sources */,
-				657A8F8A65BC87A26A8E258AC15A121C /* Frameworks */,
-				5A1003A7A9BF0DF9D636606C00BDE3AD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Metronome;
-			productName = Metronome;
-			productReference = FC2E0C218F4F46168B2F319B4B5E2137 /* Metronome.framework */;
+			productReference = 0F7A82BD3CF6584D10E6E2B377611B89 /* Pods_Metronome_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8FB14F50B43FA495FCF58DFB05B45470 /* Pods-Metronome_Tests */ = {
@@ -305,8 +357,25 @@
 			);
 			name = "Pods-Metronome_Tests";
 			productName = "Pods-Metronome_Tests";
-			productReference = 36438D1E9FD1D351DF0A6357A8084C91 /* Pods_Metronome_Tests.framework */;
+			productReference = 8E10535B89518CF5FDD845E86A807A57 /* Pods_Metronome_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		DCCFF807DCC3B09EFB385DE0824A5375 /* Metronome-Metronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D784A884B05734725E89C5C3C134EE /* Build configuration list for PBXNativeTarget "Metronome-Metronome" */;
+			buildPhases = (
+				D7F2C3F8BBF8E99AC2E1AEDCECACC526 /* Sources */,
+				B006E466B9D901B985471D2C0834A579 /* Frameworks */,
+				4B00DEC9D2D99B39CE5FA3C5615F85AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metronome-Metronome";
+			productName = "Metronome-Metronome";
+			productReference = A68470386FF124D555E261F3A1D88BF4 /* Metronome.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -325,34 +394,63 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 28692B26E7DD826E772DE370E201B630 /* Products */;
+			productRefGroup = 39EBA6A03F0B4B1A136FACEE0D776CC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EE378051F7344D9FA8A85A102A5E633 /* Metronome */,
+				3481882083CED453616FB6B80E9E5353 /* Metronome */,
+				DCCFF807DCC3B09EFB385DE0824A5375 /* Metronome-Metronome */,
 				543A623B52BCB84D2B0B0A9087C00CAD /* Pods-Metronome_Example */,
 				8FB14F50B43FA495FCF58DFB05B45470 /* Pods-Metronome_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		998E609EC1E46DCA201D2F9B1A627407 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		4B00DEC9D2D99B39CE5FA3C5615F85AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE00B28B1F9F702D003CCDBB /* MTRMetronomeButton.m in Sources */,
-				DE00B2871F9F6EE7003CCDBB /* MTRMetronome.m in Sources */,
-				FEEFBD1C3455CC30D6802E6E5B377484 /* Metronome-dummy.m in Sources */,
-				DE00B2901F9F71F4003CCDBB /* MTRMetronomeViewController.m in Sources */,
+				B650D19864499A7DEE699162FF27C45A /* metronome_click.mp3 in Resources */,
+				1297635153BE2D41E91B30F8F7953521 /* MTRMetronomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2D1A846A9D69AFB441DDBE78A4AF546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ADAE171D4C70E037D6EFF47D6858F2 /* Metronome.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		9B48547AF88C4692C8CF5F9E2A8ADE9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				16BB84E67EC949D4C9907A01BD91EC85 /* Pods-Metronome_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F2C3F8BBF8E99AC2E1AEDCECACC526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE460CF3EB7454995B4587874AAEA1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8317B7EF083782A7930C7DEF12E3DC /* Metronome-dummy.m in Sources */,
+				CE9828344A6ECED0574AF67CA80CDF9D /* MTRMetronome.m in Sources */,
+				A4037235D40E296B1D9066D1131F8B89 /* MTRMetronomeButton.m in Sources */,
+				D4FFDBC205364163C43351623D23D89E /* MTRMetronomeViewController.m in Sources */,
+				559A3B45E90AC833946D8399B87437FD /* MTRMetronomeViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,42 +468,18 @@
 		EC0C0EC26C1E1CB3CD625C4DE1F376D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Metronome;
-			target = 8EE378051F7344D9FA8A85A102A5E633 /* Metronome */;
+			target = 3481882083CED453616FB6B80E9E5353 /* Metronome */;
 			targetProxy = 105E9C7BC874F488831DBD3486A3D28A /* PBXContainerItemProxy */;
+		};
+		F6BCD2174F51143EAF999B923C890482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Metronome-Metronome";
+			target = DCCFF807DCC3B09EFB385DE0824A5375 /* Metronome-Metronome */;
+			targetProxy = 1E9F44C0D1CB9FA6D6B44405E6635443 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22DACAFBF1F3EBB06C4D0B2F27850BFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C74B2D5532B8D1C6D5BB9747278E353 /* Metronome.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Metronome/Metronome-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Metronome/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Metronome/Metronome.modulemap";
-				PRODUCT_NAME = Metronome;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2AFE30E1AE8E7B0A641A47BA69589F4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EAF59325929C862738B72328F7C1B4B4 /* Pods-Metronome_Tests.release.xcconfig */;
@@ -465,35 +539,6 @@
 				PRODUCT_NAME = Pods_Metronome_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		33AC8BBDFBC7034E015FA56C96237816 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C74B2D5532B8D1C6D5BB9747278E353 /* Metronome.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Metronome/Metronome-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Metronome/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Metronome/Metronome.modulemap";
-				PRODUCT_NAME = Metronome;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -592,6 +637,22 @@
 			};
 			name = Debug;
 		};
+		692A7F82E2079472BE8C6D4A54C70C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E3EFBA1B39FB3F04B1CBFF37D0ACC6 /* Metronome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Metronome";
+				INFOPLIST_FILE = "Target Support Files/Metronome/ResourceBundle-Metronome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Metronome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -680,6 +741,81 @@
 			};
 			name = Release;
 		};
+		74DE4859EA6BF0067D28C3C35167749A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E3EFBA1B39FB3F04B1CBFF37D0ACC6 /* Metronome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Metronome/Metronome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Metronome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Metronome/Metronome.modulemap";
+				PRODUCT_NAME = Metronome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDD163B79BD2B12BB5357AFE667D90AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E3EFBA1B39FB3F04B1CBFF37D0ACC6 /* Metronome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Metronome";
+				INFOPLIST_FILE = "Target Support Files/Metronome/ResourceBundle-Metronome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Metronome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E394C0260804DDC894463BF0E084D0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E3EFBA1B39FB3F04B1CBFF37D0ACC6 /* Metronome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Metronome/Metronome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Metronome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Metronome/Metronome.modulemap";
+				PRODUCT_NAME = Metronome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,20 +828,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4487989616D01A0A650CF423A1D7506E /* Build configuration list for PBXNativeTarget "Metronome" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33AC8BBDFBC7034E015FA56C96237816 /* Debug */,
-				22DACAFBF1F3EBB06C4D0B2F27850BFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7BE1BC329C4F3783B04FA84F94D37AE6 /* Build configuration list for PBXNativeTarget "Pods-Metronome_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B661755E6F68C338A79A6F4BFF2C7AC /* Debug */,
 				744DDBB39403A9AB40534C31953F3112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D784A884B05734725E89C5C3C134EE /* Build configuration list for PBXNativeTarget "Metronome-Metronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692A7F82E2079472BE8C6D4A54C70C5A /* Debug */,
+				DDD163B79BD2B12BB5357AFE667D90AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0132DD1B3A6A5A73BC36A103BE400B /* Build configuration list for PBXNativeTarget "Metronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E394C0260804DDC894463BF0E084D0DC /* Debug */,
+				74DE4859EA6BF0067D28C3C35167749A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

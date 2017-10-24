@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "MTRMetronome.h"
+#import "MTRMetronomeButton.h"
+#import "MTRMetronomeViewController.h"
 
 FOUNDATION_EXPORT double MetronomeVersionNumber;
 FOUNDATION_EXPORT const unsigned char MetronomeVersionString[];
