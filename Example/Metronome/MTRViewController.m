@@ -7,8 +7,11 @@
 //
 
 #import "MTRViewController.h"
+#import "MTRMetronomeViewController.h"
 
 @interface MTRViewController ()
+
+@property (strong, nonatomic) MTRMetronomeViewController *metronome;
 
 @end
 
@@ -17,13 +20,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.metronome = [[MTRMetronomeViewController alloc] initWithMinBPM:10 maxBPM:100 currentBPM:50];
+    [self.view addSubview:self.metronome.view];
+    self.metronome.view.frame = self.view.bounds;
 }
 
 @end
