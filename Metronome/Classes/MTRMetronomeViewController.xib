@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment version="2304" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -28,13 +29,19 @@
                     <subviews>
                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="10" maxValue="500" translatesAutoresizingMaskIntoConstraints="NO" id="4Qp-oj-22g">
                             <rect key="frame" x="150" y="49" width="161" height="31"/>
+                            <connections>
+                                <action selector="updateBPM:" destination="-1" eventType="valueChanged" id="jDy-i7-dFf"/>
+                            </connections>
                         </slider>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xY-av-aIO" customClass="MTMetronomeButton">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xY-av-aIO" customClass="MTRMetronomeButton">
                             <rect key="frame" x="20" y="33.5" width="60" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="60" id="DbJ-zv-I2t"/>
                                 <constraint firstAttribute="width" constant="60" id="sPb-ox-fD2"/>
                             </constraints>
+                            <connections>
+                                <action selector="play:" destination="-1" eventType="touchUpInside" id="xNo-BE-9e3"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCJ-Wn-VLa">
                             <rect key="frame" x="319" y="53" width="42" height="21"/>
