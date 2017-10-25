@@ -111,4 +111,9 @@ static NSUInteger const kMaxAllowedBPM = 500;
     self.startMetronomeButton.displayedBPM = roundedBPMValue;
 }
 
+- (void)dealloc {
+    [self.metronome stop];
+    self.metronome = nil;
+}
+
 @end
