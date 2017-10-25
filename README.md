@@ -11,6 +11,8 @@ A simple metronome.
 
 Metronome view controller that can be embedded into your app and used right away. Metronome implementation itself is based on Apple’s example (<https://developer.apple.com/library/content/samplecode/HelloMetronome/Introduction/Intro.html>).
 
+![Metronome screenshot](https://raw.githubusercontent.com/yuriiik/Metronome/master/screenshot.PNG "Metronome screenshot")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
