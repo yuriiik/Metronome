@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/Metronome.svg?style=flat)](http://cocoapods.org/pods/Metronome)
 [![Platform](https://img.shields.io/cocoapods/p/Metronome.svg?style=flat)](http://cocoapods.org/pods/Metronome)
 
+A simple metronome.
+
+## Overview
+
+Metronome view controller that can be embedded into your app and used right away. Metronome implementation itself is based on Apple’s example (<https://developer.apple.com/library/content/samplecode/HelloMetronome/Introduction/Intro.html>).
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* iOS 9.0+
 
 ## Installation
 
@@ -20,9 +28,37 @@ it, simply add the following line to your Podfile:
 pod 'Metronome'
 ```
 
+## Usage
+
+Simply create an instance of MTRMetronomeViewController and add its view to your view hierarchy.
+
+```objc
+@property (strong, nonatomic) MTRMetronomeViewController *metronome;
+```
+Add to arbitrary UIVIew.
+```objc
+self.metronome = [[MTRMetronomeViewController alloc] initWithMinBPM:10 maxBPM:100 currentBPM:50];
+[self.view addSubview:self.metronome.view];
+self.metronome.view.frame = self.view.bounds;
+```
+Add to UITableViewCell's contentView.
+```objc
+self.metronomeViewController = [[MTMetronomeViewController alloc] initWithMinBPM:10 maxBPM:100 currentBPM:50];
+self.metronomeViewController.view.translatesAutoresizingMaskIntoConstraints = NO;
+[self.contentView addSubview:self.metronomeViewController.view];
+
+UILayoutGuide *margin = self.contentView.layoutMarginsGuide;
+[self.metronomeViewController.view.topAnchor constraintEqualToAnchor:margin.topAnchor].active = YES;
+[self.metronomeViewController.view.bottomAnchor constraintEqualToAnchor:margin.bottomAnchor].active = YES;
+[self.metronomeViewController.view.leadingAnchor constraintEqualToAnchor:margin.leadingAnchor].active = YES;
+[self.metronomeViewController.view.trailingAnchor constraintEqualToAnchor:margin.trailingAnchor].active = YES;
+```
+
 ## Author
 
-kupratsevich@gmail.com, yurii.kupratsevych@elementum.com
+Yurii Kupratsevych
+
+kupratsevich@gmail.com
 
 ## License
 
