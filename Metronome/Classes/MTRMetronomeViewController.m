@@ -29,6 +29,28 @@ static NSUInteger const kMaxAllowedBPM = 500;
 
 #pragma mark - Public Methods
 
+- (void)setMinBPM:(NSUInteger)minBPM {
+    if (minBPM < self.maxBPM) {
+        _minBPM = minBPM;
+        self.BPMSlider.minimumValue = minBPM;
+        self.minBPMLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)minBPM];
+        if (self.currentBPM < minBPM) {
+            self.currentBPM = minBPM;
+        }
+    }
+}
+
+- (void)setMaxBPM:(NSUInteger)maxBPM {
+    if (maxBPM > self.minBPM) {
+        _maxBPM = maxBPM;
+        self.BPMSlider.maximumValue = maxBPM;
+        self.maxBPMLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)maxBPM];
+        if (self.currentBPM > maxBPM) {
+            self.currentBPM = maxBPM;
+        }
+    }
+}
+
 - (void)setCurrentBPM:(NSUInteger)currentBPM {
     if ((currentBPM != _currentBPM) && [self isValidCurrentBPM:currentBPM]) {
         _currentBPM = currentBPM;

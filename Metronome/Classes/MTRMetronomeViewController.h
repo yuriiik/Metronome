@@ -9,8 +9,8 @@
 
 @interface MTRMetronomeViewController : UIViewController
 
-@property (nonatomic, readonly) NSUInteger minBPM;
-@property (nonatomic, readonly) NSUInteger maxBPM;
+@property (nonatomic) NSUInteger minBPM;
+@property (nonatomic) NSUInteger maxBPM;
 @property (nonatomic) NSUInteger currentBPM;
 
 - (instancetype)initWithMinBPM:(NSUInteger)minBPM
