@@ -30,8 +30,8 @@ Metronome view controller that can be embedded into your app and used right away
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Metronome/Classes/**/*'
-  
+  s.source_files = 'Metronome/Classes/**/*.{h,m}'
+
   s.resource_bundles = {
     'Metronome' => ['Metronome/Assets/*.mp3', 'Metronome/Classes/*.xib']
   }
